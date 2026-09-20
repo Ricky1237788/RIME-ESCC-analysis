@@ -1,0 +1,12 @@
+# Restricted patient-level data must never be uploaded to the public repository.
+data/
+*.xlsx
+*.csv
+*.rds
+*.RData
+
+# Locally generated outputs and RStudio session files.
+output/
+.Rhistory
+.RData
+.Rproj.user/
