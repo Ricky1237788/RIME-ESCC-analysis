@@ -12,7 +12,6 @@ These scripts are a reproducible analysis template. Before public release, run e
 2. `01_cutoff_maxstat_and_ROC.R`
 3. `02_Figure1_PDL1.R` through `06_Figure5_joint_RIME_PDL1.R`
 4. `07_Supplementary_dynamic.R` through `10_Supplementary_tables.R`
-5. `99_export_session_info.R`
 
 ## Expected analysis dataset
 
@@ -30,4 +29,4 @@ Individual-level clinical data are not publicly available because of patient pri
 
 ## Software
 
-R version and package versions are recorded in `sessionInfo.txt` after running `99_export_session_info.R`.
+The R version and package versions used for this release are recorded in `sessionInfo.txt`.
