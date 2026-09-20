@@ -19,7 +19,7 @@ The input file is not included because it contains individual-level clinical dat
 
 `arm` should be coded as `Control` or `Experimental`; survival times are in months; `OS_event` and `PFS_event` use 1 for an event and 0 for censoring; and `ORR` uses 1 for objective response and 0 otherwise. The exploratory grouping cutoff is derived using maximally selected rank statistics based on PFS time and event status; the reported analysis cutoff is 2.23. Time-dependent ROC analysis at 6 months is used for descriptive assessment in Figure S1.
 
-Dynamic analyses additionally require `data/longitudinal_rime.csv`, with one row per patient and the columns `id`, `rime_baseline`, `rime_post`, `PFS_time`, `PFS_event`, `OS_time`, and `OS_event`. Dynamic change is defined as `(ONGOING - Baseline) / Baseline`, with a prespecified exploratory cutoff of -16.2%.
+Dynamic analyses additionally require `data/longitudinal_rime.csv`, with one row per patient and the columns `id`, `rime_baseline`, `rime_post`, `PFS_time`, `PFS_event`, `OS_time`, and `OS_event`. Dynamic change is defined as `(ONGOING - Baseline) / Baseline`
 
 For adjusted analyses, include the prespecified clinical covariates: age, sex, ECOG, disease status, lymph-node status, metastatic burden, prior chemoradiotherapy, and PD-L1 status.
 
